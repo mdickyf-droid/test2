@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "test2",
+  "main": "./worker.js",
+  "compatibility_date": "2026-08-26",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "CF_ACCOUNT_ID": "ea8b8bb8fcfed7d4d115a3153dd7f8d6"
+  }
+}
